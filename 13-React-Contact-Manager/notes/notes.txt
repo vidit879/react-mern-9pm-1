@@ -1,0 +1,79 @@
+Contact Manager
+---------------
+-> Design the application
+-> Server Setup
+	-> package.json -> npm init --yes
+	-> json-server -> npm install json-server
+	-> create db.json & place in server folder
+	-> configure json-server in package.json
+
+-> start  the server "npm start"
+
+NOTE : To test the application in your local system, enter the below 2 commands inside "server" folder
+-> npm install
+-> npm start
+
+-> API Testing
+----------------
+-> Test the Server (using postman / insomnia)
+------------------
+GET -> to get data from server -> READ
+POST -> to create data at server -> CREATE
+PUT -> to update data at server -> UPDATE
+DELETE -> to delete data at server -> DELETE
+
+/**
+	@usage : to get all contacts
+    @method : GET
+    @parms : no-params
+    @url : http://localhost:9000/contacts
+*/
+
+/**
+	@usage : get a contact
+    @method : GET
+    @parms : no-params
+    @url : http://localhost:9000/contacts/:contactId
+*/
+
+/**
+	@usage : create a contact
+    @method : POST
+    @parms : name, imageUrl, email, mobile, company, title, groupId
+    @url : http://localhost:9000/contacts/
+*/
+
+/**
+	@usage : Update a contact
+    @method : PUT
+    @parms : name, imageUrl, email, mobile, company, title, groupId
+    @url : http://localhost:9000/contacts/:contactId
+*/
+
+/**
+	@usage : Delete a contact
+    @method : DELETE
+    @parms : no-params
+    @url : http://localhost:9000/contacts/:contactId
+*/
+
+/**
+	@usage : Get all groups
+    @method : GET
+    @parms : no-params
+    @url : http://localhost:9000/groups/
+*/
+
+/**
+	@usage : Get a group
+    @method : GET
+    @parms : no-params
+    @url : http://localhost:9000/groups/:groupId
+*/
+
+
+-> Integration with FE
+------------------------
+-> Create a server make calls to server
+
+-> Test the whole application

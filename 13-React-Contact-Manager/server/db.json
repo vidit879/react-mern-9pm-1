@@ -1,0 +1,70 @@
+{
+  "contacts": [
+    {
+      "name": "Brad Wilson",
+      "company": "YouTube",
+      "email": "brad@gmail.com",
+      "title": "Youtuber",
+      "mobile": "9876546787",
+      "imageUrl": "https://cdn1.iconfinder.com/data/icons/user-pictures/101/malecostume-512.png",
+      "groupId": "3",
+      "id": "D6BNdWnHI"
+    },
+    {
+      "name": "Rajan",
+      "imageUrl": "https://icons.iconarchive.com/icons/graphicloads/colorful-long-shadow/256/User-icon.png",
+      "mobile": "9090909090",
+      "email": "rajan@gmail.com",
+      "company": "HCL Technologies",
+      "title": "Software Engineer",
+      "groupId": "1",
+      "id": "kLt-bJF"
+    },
+    {
+      "name": "Naveen",
+      "imageUrl": "data:image/png;base64,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",
+      "mobile": "9844804533",
+      "email": "naveen@gmail.com",
+      "company": "Photon",
+      "title": "Tech Lead",
+      "groupId": "6",
+      "id": "Ekf9Z_H"
+    },
+    {
+      "name": "Laura Johnson",
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVSO4E8MjJxn1wB3ERfrfTVQu7SIvn0T5LaQ&usqp=CAU",
+      "mobile": "9087567890",
+      "email": "laura@gmail.com",
+      "company": "HCL",
+      "title": "Software Engineer",
+      "groupId": "1",
+      "id": "spkrojo"
+    }
+  ],
+  "groups": [
+    {
+      "id": "1",
+      "name": "Colleague"
+    },
+    {
+      "id": "2",
+      "name": "Friend"
+    },
+    {
+      "id": "3",
+      "name": "Family"
+    },
+    {
+      "id": "4",
+      "name": "Service"
+    },
+    {
+      "id": "5",
+      "name": "Community"
+    },
+    {
+      "id": "6",
+      "name": "Social"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+1. install react-toastify
+  npm install react-toastify
+
+2. import the css file in index.tsx
+import "../node_modules/react-toastify/dist/ReactToastify.css";
+
+3. Declare the Toastify container Component in App.tsx
+<ToastContainer
+                position="top-left"
+                autoClose={2000}
+                hideProgressBar={false}
+                newestOnTop={false}
+                closeOnClick
+                rtl={false}
+                pauseOnFocusLoss
+                draggable
+                pauseOnHover
+                theme="light"
+            />
+
+4. Create a util file for toast messages refer : ToastUtil.ts in util folder
+5. use the toast messages
+ex: ToastUtil.displaySuccessToast("Contact is Created");
