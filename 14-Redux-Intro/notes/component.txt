@@ -1,0 +1,10 @@
+import React from 'react';
+
+export const TourCards: React.FC = () => {
+    return (
+        <>
+            TourCards
+        </>
+    )
+};
+export default TourCards;

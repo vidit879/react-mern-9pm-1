@@ -1,0 +1,15 @@
+Redux Toolkit
+-------------
+-> install a browser plugin "Redux Dev Tools"
+
+@reduxjs/toolkit
+react-redux -> Provider
+redux-logger -> log messages
+
+npm install @reduxjs/toolkit react-redux @types/react-redux redux-logger @types/redux-logger
+
+-> create a store
+-> create root reducer
+-> create slice = reducer + actions
+-> configure store with React Application
+-> start using Redux in components
